@@ -1,0 +1,67 @@
+sudo nmap -sS -T4 -p- 192.168.29.0/24
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-11-13 12:18 IST
+Stats: 0:00:02 elapsed; 0 hosts completed (0 up), 256 undergoing Ping Scan
+Ping Scan Timing: About 9.52% done; ETC: 12:19 (0:00:19 remaining)
+Stats: 0:00:16 elapsed; 0 hosts completed (0 up), 256 undergoing Ping Scan
+Ping Scan Timing: About 64.94% done; ETC: 12:19 (0:00:09 remaining)
+Stats: 0:03:56 elapsed; 252 hosts completed (4 up), 4 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 72.92% done; ETC: 12:24 (0:01:17 remaining)
+Stats: 0:03:57 elapsed; 252 hosts completed (4 up), 4 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 73.10% done; ETC: 12:24 (0:01:16 remaining)
+Stats: 0:03:57 elapsed; 252 hosts completed (4 up), 4 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 73.21% done; ETC: 12:24 (0:01:16 remaining)
+Stats: 0:05:17 elapsed; 252 hosts completed (4 up), 4 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 91.32% done; ETC: 12:24 (0:00:27 remaining)
+Stats: 0:05:19 elapsed; 252 hosts completed (4 up), 4 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 91.43% done; ETC: 12:24 (0:00:27 remaining)
+Stats: 0:05:19 elapsed; 252 hosts completed (4 up), 4 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 91.53% done; ETC: 12:24 (0:00:27 remaining)
+Stats: 0:05:20 elapsed; 252 hosts completed (4 up), 4 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 91.59% done; ETC: 12:24 (0:00:27 remaining)
+Nmap scan report for reliance.reliance (192.168.29.1)
+Host is up (0.040s latency).
+Not shown: 65313 filtered ports, 213 closed ports
+PORT      STATE SERVICE
+80/tcp    open  http
+443/tcp   open  https
+1900/tcp  open  upnp
+2872/tcp  open  radix
+5068/tcp  open  bitforestsrv
+7443/tcp  open  oracleas-https
+8080/tcp  open  http-proxy
+8443/tcp  open  https-alt
+54321/tcp open  unknown
+
+Nmap scan report for  (192.168.29.50)
+Host is up (0.00024s latency).
+Not shown: 65515 closed ports
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+2179/tcp  open  vmrdp
+3389/tcp  open  ms-wbt-server
+5040/tcp  open  unknown
+5357/tcp  open  wsdapi
+7680/tcp  open  pando-pub
+49664/tcp open  unknown
+49665/tcp open  unknown
+49666/tcp open  unknown
+49667/tcp open  unknown
+49668/tcp open  unknown
+49669/tcp open  unknown
+49677/tcp open  unknown
+49980/tcp open  unknown
+54121/tcp open  unknown
+54319/tcp open  unknown
+54470/tcp open  unknown
+54472/tcp open  unknown
+
+Nmap scan report for 192.168.29.66
+Host is up (0.028s latency).
+All 65535 scanned ports on 192.168.29.66 are closed
+
+Nmap scan report for 192.168.29.124
+Host is up (0.035s latency).
+All 65535 scanned ports on 192.168.29.124 are closed
