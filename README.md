@@ -26,4 +26,6 @@ This repository documents a structured network discovery and port-scanning exerc
 
 ### 1. Host discovery (ping scan)
  
-sudo nmap -sn 192.168.29.0/24 -oN nmap/host_discovery.nmap
+sudo nmap -sS 192.168.29.0/24 
+
+sudo nmap -sS -P- 192.168.29.0/24 
